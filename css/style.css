@@ -1,0 +1,44 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.press {
+    position: absolute;
+    top:40%;
+    left:40%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.wholeDiv {
+    display:none;
+}
+
+.box1, .box2, .box3 {
+    width:80px;
+    height:50px;
+    border:2px solid black;
+    padding: 20px;
+    background-color: whitesmoke;
+    color:black;
+    margin-top: 10px;
+}
+
+.none {
+    display: none;
+}
+
+.wholeDiv1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
